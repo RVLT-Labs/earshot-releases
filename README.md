@@ -11,6 +11,8 @@
     <a href="https://rvlt-labs.github.io/earshot-manual/">Read the manual</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/RVLT-Labs/earshot-releases/releases">Release notes</a>
+    &nbsp;·&nbsp;
+    <a href="https://rvlt-labs.github.io/earshot-manual/changelog">Changelog</a>
   </p>
   <p>Built by <strong>RVLT</strong> for live-production crews.</p>
 </div>
@@ -26,6 +28,7 @@
 Earshot turns speech from multiple audio channels into a live, readable transcript. Run it on the computer connected to your audio inputs, then let the crew follow along in a browser on the show network.
 
 - **Read across channels.** Follow a combined Feed, arrange channels in Lanes, or use Focus for a larger view.
+- **Catch your name.** Enter your name or keywords under **Display → Personal keyword alerts** to flash only your device and show the matching line. No automation or Armed mode is needed.
 - **Bring the crew in.** Phones, tablets and laptops connect through a browser. Only the host needs the desktop app.
 - **Recognise speech locally.** Download the speech models during setup, then run them on your host. Cloud speech and translation are optional and require you to enable them.
 - **Find a line again.** Search the transcript archive, add markers and export transcripts.
@@ -36,13 +39,13 @@ Earshot turns speech from multiple audio channels into a live, readable transcri
 
 **[Get the latest release →](https://github.com/RVLT-Labs/earshot-releases/releases/latest)**
 
-Packages below are for **v0.1.0**. Check the release notes before installing or updating.
+Packages below are for **v0.2.0**. Check the release notes before installing or updating.
 
 | Your computer | Download |
 |---|---|
-| **macOS · Apple Silicon** | [DMG installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.1.0/Earshot_0.1.0_aarch64.dmg) |
-| **Windows · 64-bit** | [EXE installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.1.0/Earshot_0.1.0_x64-setup.exe) · [MSI installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.1.0/Earshot_0.1.0_x64_en-US.msi) |
-| **Linux · x86_64** | [AppImage](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.1.0/Earshot_0.1.0_amd64.AppImage) · [DEB](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.1.0/Earshot_0.1.0_amd64.deb) · [RPM](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.1.0/Earshot-0.1.0-1.x86_64.rpm) |
+| **macOS · Apple Silicon** | [DMG installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_aarch64.dmg) |
+| **Windows · 64-bit** | [EXE installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_x64-setup.exe) · [MSI installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_x64_en-US.msi) |
+| **Linux · x86_64** | [AppImage](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_amd64.AppImage) · [DEB](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_amd64.deb) · [RPM](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot-0.2.0-1.x86_64.rpm) |
 
 There is no Intel Mac build. Linux packages are built on Ubuntu 22.04. GitHub's **Source code** archives contain this downloads page and its images; install one of the packages above.
 
@@ -52,7 +55,7 @@ These early releases are **unsigned**. macOS may require approval in **System Se
 
 All three platforms have passed a headless startup check. The macOS packaged app has also been started and checked; the Windows and Linux installer interfaces and desktop windows have not yet been tested. Test your audio hardware and show setup before relying on it in production.
 
-Each release includes [SHA256SUMS.txt](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.1.0/SHA256SUMS.txt) so you can verify your download.
+Each release includes [SHA256SUMS.txt](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/SHA256SUMS.txt) so you can verify your download.
 
 ## Your first session
 
