@@ -39,15 +39,21 @@ Earshot turns speech from multiple audio channels into a live, readable transcri
 
 **[Get the latest release →](https://github.com/RVLT-Labs/earshot-releases/releases/latest)**
 
-Packages below are for **v0.2.0**. Check the release notes before installing or updating.
+Packages below are for **v0.3.0**. Check the release notes before installing or updating.
 
 | Your computer | Download |
 |---|---|
-| **macOS · Apple Silicon** | [DMG installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_aarch64.dmg) |
-| **Windows · 64-bit** | [EXE installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_x64-setup.exe) · [MSI installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_x64_en-US.msi) |
-| **Linux · x86_64** | [AppImage](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_amd64.AppImage) · [DEB](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot_0.2.0_amd64.deb) · [RPM](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/Earshot-0.2.0-1.x86_64.rpm) |
+| **macOS · Apple Silicon** | [DMG installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.3.0/Earshot_0.3.0_aarch64.dmg) |
+| **Windows · 64-bit** | [EXE installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.3.0/Earshot_0.3.0_x64-setup.exe) · [MSI installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.3.0/Earshot_0.3.0_x64_en-US.msi) |
+| **Linux · x86_64** | [AppImage](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.3.0/Earshot_0.3.0_amd64.AppImage) · [DEB](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.3.0/Earshot_0.3.0_amd64.deb) · [RPM](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.3.0/Earshot-0.3.0-1.x86_64.rpm) |
 
 There is no Intel Mac build. Linux packages are built on Ubuntu 22.04. GitHub's **Source code** archives contain this downloads page and its images; install one of the packages above.
+
+### Updates
+
+Earshot v0.3.0 adds **Check for Updates…** to the tray icon's context menu and the macOS Earshot menu. It checks GitHub Releases after startup and every six hours, with **Update now**, **Not now**, and **Don't remind me for this update** choices. Update downloads are checked against an updater signature before installation.
+
+**Upgrading from v0.2.0 or earlier?** Install v0.3.0 manually once using a download above. Future versions can update in-app on macOS, Windows and Linux AppImage installations. Linux DEB/RPM installations use the package manager.
 
 ### Before you install
 
@@ -55,7 +61,7 @@ These early releases are **unsigned**. macOS may require approval in **System Se
 
 All three platforms have passed a headless startup check. The macOS packaged app has also been started and checked; the Windows and Linux installer interfaces and desktop windows have not yet been tested. Test your audio hardware and show setup before relying on it in production.
 
-Each release includes [SHA256SUMS.txt](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.2.0/SHA256SUMS.txt) so you can verify your download.
+Each release includes [SHA256SUMS.txt](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.3.0/SHA256SUMS.txt) so you can verify your download.
 
 ## Your first session
 
