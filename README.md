@@ -43,11 +43,11 @@ Earshot turns speech from multiple audio channels into a live, readable transcri
 
 **[Get the latest release →](https://github.com/RVLT-Labs/earshot-releases/releases/latest)**
 
-**macOS Apple Silicon: v0.5.0. Windows and Linux updates are on hold at v0.4.0.** Check the release notes before installing or updating.
+**macOS Apple Silicon: v0.5.1. Windows and Linux updates are on hold at v0.4.0.** Check the release notes before installing or updating.
 
 | Your computer | Download |
 |---|---|
-| **macOS · Apple Silicon** | [DMG installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.5.0/Earshot_0.5.0_aarch64.dmg) |
+| **macOS · Apple Silicon** | [DMG installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.5.1/Earshot_0.5.1_aarch64.dmg) |
 | **Windows · 64-bit · v0.4.0** | [EXE installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.4.0/Earshot_0.4.0_x64-setup.exe) · [MSI installer](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.4.0/Earshot_0.4.0_x64_en-US.msi) |
 | **Linux · x86_64 · v0.4.0** | [AppImage](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.4.0/Earshot_0.4.0_amd64.AppImage) · [DEB](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.4.0/Earshot_0.4.0_amd64.deb) · [RPM](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.4.0/Earshot-0.4.0-1.x86_64.rpm) |
 
@@ -63,9 +63,9 @@ Earshot v0.3.0 adds **Check for Updates…** to the tray icon's context menu and
 
 The macOS app is ad-hoc signed but not notarised; Windows installers are not Authenticode-signed. Updater artifacts have separate verified signatures. macOS may require approval in **System Settings → Privacy & Security**. Windows may show a SmartScreen warning. Read the release notes for instructions.
 
-The v0.5.0 Mac build passed its headless startup check and packaged-app checks on Apple Silicon. The older v0.4.0 Windows and Linux packages passed headless startup checks; their installer interfaces and desktop windows have not yet been tested. Noisy comms, overlapping voices and isolated commands can still produce missed or incorrect words. Test your actual audio feed and show setup before relying on it in production.
+The v0.5.1 Mac build passed its headless startup check and packaged-app checks on Apple Silicon. The older v0.4.0 Windows and Linux packages passed headless startup checks; their installer interfaces and desktop windows have not yet been tested. Noisy comms, overlapping voices and isolated commands can still produce missed or incorrect words. Test your actual audio feed and show setup before relying on it in production.
 
-Verify your download against the checksums for its version: [macOS v0.5.0](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.5.0/SHA256SUMS.txt) or [Windows/Linux v0.4.0](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.4.0/SHA256SUMS.txt).
+Verify your download against the checksums for its version: [macOS v0.5.1](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.5.1/SHA256SUMS.txt) or [Windows/Linux v0.4.0](https://github.com/RVLT-Labs/earshot-releases/releases/download/v0.4.0/SHA256SUMS.txt).
 
 ## Your first session
 
